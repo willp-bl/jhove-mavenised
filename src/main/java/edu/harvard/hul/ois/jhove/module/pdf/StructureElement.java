@@ -96,12 +96,30 @@ public class StructureElement
             // The only one we check seriously is a structure element.
             PdfDictionary kdict = (PdfDictionary) k;
             if (isStructElem (kdict)) {
-                StructureElement se = 
-                    new StructureElement (kdict, _tree);
-                se.buildSubtree ();
-                se.checkAttributes ();
-                children = new ArrayList<StructureElement> (1);
-                children.add (se);
+               
+        		//check for non-zero before creating a new StructureElement
+        		//cf. Govdocs file http://digitalcorpora.org/corp/nps/files/govdocs1/000/000153.pdf
+        		//object 717 that has "/K 0" enters infinite(?) loop without this check
+            	PdfObject kidsObject = (PdfObject)kdict.get("K");
+            	if(kidsObject instanceof PdfSimpleObject) {
+            		PdfSimpleObject kids = (PdfSimpleObject)kidsObject;
+            		Token tok = kids.getToken();
+            		if(tok instanceof Numeric) {
+            			//if the kids value is zero then there are no child objects; exit method
+            			if(((Numeric)tok).getValue()==0) {
+            				children = null;
+            				return;
+            			}
+            		}
+            	}
+
+            	StructureElement se = 
+            			new StructureElement (kdict, _tree);
+
+            	se.buildSubtree ();
+            	se.checkAttributes ();
+            	children = new ArrayList<StructureElement> (1);
+            	children.add (se);
             }
             else if (!isMarkedContent (kdict) && !isObjectRef (kdict)) {
                 throw new PdfInvalidException 
@@ -118,15 +136,33 @@ public class StructureElement
                 }
                 catch (IOException e) {}
                 if (kelem instanceof PdfDictionary) {
-                    PdfDictionary kdict = (PdfDictionary) kelem;
-                    if (isStructElem (kdict)) {
-                                _logger.finest ("Building subtree");
-                                StructureElement se = 
-                                    new StructureElement (kdict, _tree);
-                                se.buildSubtree ();
-                                se.checkAttributes ();
-                                children.add (se);
-                    }
+                	PdfDictionary kdict = (PdfDictionary) kelem;
+                	if (isStructElem (kdict)) {
+
+                		_logger.finest ("Building subtree");
+
+                		//check for non-zero before creating a new StructureElement
+                		//cf. Govdocs file http://digitalcorpora.org/corp/nps/files/govdocs1/000/000153.pdf
+                		//object 717 that has "/K 0" enters infinite(?) loop without this check
+                		PdfObject kidsObject = (PdfObject)kdict.get("K");
+                		if(kidsObject instanceof PdfSimpleObject) {
+                			PdfSimpleObject kids = (PdfSimpleObject)kidsObject;
+                			Token tok = kids.getToken();
+                			if(tok instanceof Numeric) {
+                				//if the kids value is zero then there are no child objects; exit method
+                				if(((Numeric)tok).getValue()==0) {
+                					children = null;
+                					return;
+                				}
+                			}
+                		}
+
+                		StructureElement se = 
+                				new StructureElement (kdict, _tree);
+                		se.buildSubtree ();
+                		se.checkAttributes ();
+                		children.add (se);
+                	}
                 }
             }
             // It's possible that none of the elements of the array
