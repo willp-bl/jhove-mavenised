@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.opf-labs.jhove</groupId>
 	<artifactId>jhove</artifactId>
-	<version>1.10</version>
+	<version>1.11a1</version>
 	<name>JHOVE - JSTOR/Harvard Object Validation Environment</name>
 	<description>JHOVE provides functions to perform format-specific identification, validation, and characterization of digital objects.</description>
 	<licenses>
