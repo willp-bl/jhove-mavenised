@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/jhove http://hul.harvard.edu/ois/xml/xsd/jhove/1.6/jhove.xsd" name="Jhove" release="1.11" date="2013-09-29">
+ <date>2013-10-15T14:38:00+01:00</date>
+ <repInfo uri="000606.pdf">
+  <reportingModule release="1.7" date="2012-08-12">PDF-hul</reportingModule>
+  <lastModified>2013-10-15T11:02:03+01:00</lastModified>
+  <size>9910</size>
+  <format>PDF</format>
+  <version>1.2</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>application/pdf</mimeType>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>20</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>0</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Title</name>
+      <values arity="Scalar" type="String">
+       <value>Intermountain Health Care/McKay-Dee Hospital Center</value>
+      </values>
+     </property>
+     <property>
+      <name>Author</name>
+      <values arity="Scalar" type="String">
+       <value>Michael A. Carome, M.D. and Kristina C. Borror, Ph.D.</value>
+      </values>
+     </property>
+     <property>
+      <name>Subject</name>
+      <values arity="Scalar" type="String">
+       <value>Determination Letter</value>
+      </values>
+     </property>
+     <property>
+      <name>Keywords</name>
+      <values arity="Scalar" type="String">
+       <value>Intermountain Health Care/McKay-Dee Hospital Center:Determination Letter</value>
+      </values>
+     </property>
+     <property>
+      <name>Creator</name>
+      <values arity="Scalar" type="String">
+       <value>WordPerfect 9 - [H:\My Documents\Web Documents\Letters\IH.wpd]</value>
+      </values>
+     </property>
+     <property>
+      <name>Producer</name>
+      <values arity="Scalar" type="String">
+       <value>Acrobat PDFWriter 5.0 for Windows</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Thu Apr 29 14:08:54 BST 2004</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0x87df0f430efda7653b974674c7b82d97</value>
+      <value>0x87df0f430efda7653b974674c7b82d97</value>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>FlateDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>TrueType</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F0</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>TimesNewRoman,Bold</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>31</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>TimesNewRoman,Bold</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Serif</value>
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-250</value>
+          <value>-250</value>
+          <value>1200</value>
+          <value>938</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F1</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>TimesNewRoman</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>31</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>TimesNewRoman</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Serif</value>
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-250</value>
+          <value>-250</value>
+          <value>1200</value>
+          <value>1000</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>2</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>3</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+  <checksums>
+   <checksum type="CRC32">9594825f</checksum>
+   <checksum type="MD5">20298adf417604adcde4ce1618c35e20</checksum>
+   <checksum type="SHA-1">87895e170b73590bfed29dce30be43a87b5e4c62</checksum>
+  </checksums>
+ </repInfo>
+</jhove>

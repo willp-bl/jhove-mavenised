@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/jhove http://hul.harvard.edu/ois/xml/xsd/jhove/1.6/jhove.xsd" name="Jhove" release="1.11" date="2013-09-29">
+ <date>2013-10-15T14:35:41+01:00</date>
+ <repInfo uri="lisbon_set_7_pdfa1b.pdf">
+  <reportingModule release="1.5" date="2011-02-03">UTF8-hul</reportingModule>
+  <lastModified>2013-09-02T14:20:53+01:00</lastModified>
+  <size>1709</size>
+  <format>UTF-8</format>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>text/plain; charset=UTF-8</mimeType>
+  <properties>
+   <property>
+    <name>UTF8Metadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Characters</name>
+     <values arity="Scalar" type="Long">
+      <value>1695</value>
+     </values>
+    </property>
+    <property>
+     <name>UnicodeBlocks</name>
+     <values arity="List" type="String">
+      <value>Basic Latin</value>
+      <value>Box Drawing</value>
+     </values>
+    </property>
+    <property>
+     <name>LineEndings</name>
+     <values arity="List" type="String">
+      <value>CRLF</value>
+     </values>
+    </property>
+    <property>
+     <name>ControlCharacters</name>
+     <values arity="List" type="String">
+      <value>TAB (0x09)</value>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+  <checksums>
+   <checksum type="CRC32">c9dfd092</checksum>
+   <checksum type="MD5">fac8a61e4129aa92fb59f3313aabc18e</checksum>
+   <checksum type="SHA-1">069a89c1b9149e630e1897ac544f31b3e6c3bc6e</checksum>
+  </checksums>
+  <note>Additional representation information includes the line endings: CR, LF, or CRLF</note>
+ </repInfo>
+</jhove>

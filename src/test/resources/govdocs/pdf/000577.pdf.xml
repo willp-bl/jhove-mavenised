@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/jhove http://hul.harvard.edu/ois/xml/xsd/jhove/1.6/jhove.xsd" name="Jhove" release="1.11" date="2013-09-29">
+ <date>2013-10-15T14:37:53+01:00</date>
+ <repInfo uri="000577.pdf">
+  <reportingModule release="1.7" date="2012-08-12">PDF-hul</reportingModule>
+  <lastModified>2013-10-15T11:01:18+01:00</lastModified>
+  <size>9224</size>
+  <format>PDF</format>
+  <version>1.4</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>application/pdf</mimeType>
+  <profiles>
+   <profile>Linearized PDF</profile>
+  </profiles>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>21</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Title</name>
+      <values arity="Scalar" type="String">
+       <value>Microsoft Word - ID Theft Call Registration Form.doc</value>
+      </values>
+     </property>
+     <property>
+      <name>Author</name>
+      <values arity="Scalar" type="String">
+       <value>lkahn</value>
+      </values>
+     </property>
+     <property>
+      <name>Creator</name>
+      <values arity="Scalar" type="String">
+       <value>PScript5.dll Version 5.2.2</value>
+      </values>
+     </property>
+     <property>
+      <name>Producer</name>
+      <values arity="Scalar" type="String">
+       <value>Acrobat Distiller 7.0.5 (Windows)</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Fri Sep 12 13:34:51 BST 2008</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Fri Sep 12 13:34:51 BST 2008</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0x12f05729472ee0c192a2305be65ba34f</value>
+      <value>0xfe681777f23e774ebc380c392a0f5916</value>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>FlateDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>TrueType</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Arial-BoldMT</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>84</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>Arial-BoldMT</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-628</value>
+          <value>-376</value>
+          <value>2000</value>
+          <value>1010</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>TimesNewRomanPS-BoldMT</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>150</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>TimesNewRomanPS-BoldMT</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Serif</value>
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-558</value>
+          <value>-307</value>
+          <value>2000</value>
+          <value>1026</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>ArialMT</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>ArialMT</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-665</value>
+          <value>-325</value>
+          <value>2000</value>
+          <value>1006</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>TimesNewRomanPSMT</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>146</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>TimesNewRomanPSMT</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Serif</value>
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-568</value>
+          <value>-307</value>
+          <value>2000</value>
+          <value>1007</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>XMP</name>
+     <values arity="Scalar" type="String">
+      <value>&lt;x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="3.1-701"&gt;
+   &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/"&gt;
+         &lt;pdf:Producer&gt;Acrobat Distiller 7.0.5 (Windows)&lt;/pdf:Producer&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:xap="http://ns.adobe.com/xap/1.0/"&gt;
+         &lt;xap:CreatorTool&gt;PScript5.dll Version 5.2.2&lt;/xap:CreatorTool&gt;
+         &lt;xap:ModifyDate&gt;2008-09-12T12:34:51-04:00&lt;/xap:ModifyDate&gt;
+         &lt;xap:CreateDate&gt;2008-09-12T12:34:51-04:00&lt;/xap:CreateDate&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+         &lt;dc:format&gt;application/pdf&lt;/dc:format&gt;
+         &lt;dc:title&gt;
+            &lt;rdf:Alt&gt;
+               &lt;rdf:li xml:lang="x-default"&gt;Microsoft Word - ID Theft Call Registration Form.doc&lt;/rdf:li&gt;
+            &lt;/rdf:Alt&gt;
+         &lt;/dc:title&gt;
+         &lt;dc:creator&gt;
+            &lt;rdf:Seq&gt;
+               &lt;rdf:li&gt;lkahn&lt;/rdf:li&gt;
+            &lt;/rdf:Seq&gt;
+         &lt;/dc:creator&gt;
+      &lt;/rdf:Description&gt;
+      &lt;rdf:Description rdf:about=""
+            xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/"&gt;
+         &lt;xapMM:DocumentID&gt;uuid:71a33622-c95e-4540-bc09-1b18d6f7f53e&lt;/xapMM:DocumentID&gt;
+         &lt;xapMM:InstanceID&gt;uuid:5b942c3d-8825-4bde-9a76-d09100e7697c&lt;/xapMM:InstanceID&gt;
+      &lt;/rdf:Description&gt;
+   &lt;/rdf:RDF&gt;
+&lt;/x:xmpmeta&gt;</value>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Label</name>
+       <values arity="Scalar" type="String">
+        <value>1</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+  <checksums>
+   <checksum type="CRC32">dcec5ebd</checksum>
+   <checksum type="MD5">959c125f7e0c6c9946e636d0211bf98d</checksum>
+   <checksum type="SHA-1">ff1853e49b790e18cb12b9d57ff1b367c30ecb89</checksum>
+  </checksums>
+ </repInfo>
+</jhove>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jhove xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/jhove http://hul.harvard.edu/ois/xml/xsd/jhove/1.6/jhove.xsd" name="Jhove" release="1.11" date="2013-09-29">
+ <date>2013-10-15T14:37:44+01:00</date>
+ <repInfo uri="000369.pdf">
+  <reportingModule release="1.7" date="2012-08-12">PDF-hul</reportingModule>
+  <lastModified>2013-10-15T11:03:14+01:00</lastModified>
+  <size>11558</size>
+  <format>PDF</format>
+  <version>1.3</version>
+  <status>Well-Formed and valid</status>
+  <sigMatch>
+  <module>PDF-hul</module>
+  </sigMatch>
+  <mimeType>application/pdf</mimeType>
+  <profiles>
+   <profile>Linearized PDF</profile>
+  </profiles>
+  <properties>
+   <property>
+    <name>PDFMetadata</name>
+    <values arity="List" type="Property">
+    <property>
+     <name>Objects</name>
+     <values arity="Scalar" type="Integer">
+      <value>22</value>
+     </values>
+    </property>
+    <property>
+     <name>FreeObjects</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>IncrementalUpdates</name>
+     <values arity="Scalar" type="Integer">
+      <value>1</value>
+     </values>
+    </property>
+    <property>
+     <name>DocumentCatalog</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>PageLayout</name>
+      <values arity="Scalar" type="String">
+       <value>SinglePage</value>
+      </values>
+     </property>
+     <property>
+      <name>PageMode</name>
+      <values arity="Scalar" type="String">
+       <value>UseNone</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Info</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Creator</name>
+      <values arity="Scalar" type="String">
+       <value>WordPerfect Document</value>
+      </values>
+     </property>
+     <property>
+      <name>Producer</name>
+      <values arity="Scalar" type="String">
+       <value>www.adlibsoftware.com:EXS3185-Windows 2003:TNG</value>
+      </values>
+     </property>
+     <property>
+      <name>CreationDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Tue Aug 26 10:47:21 BST 2008</value>
+      </values>
+     </property>
+     <property>
+      <name>ModDate</name>
+      <values arity="Scalar" type="Date">
+       <value>Tue Aug 26 10:47:21 BST 2008</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>ID</name>
+     <values arity="Array" type="String">
+      <value>0x5c5c205c5c3e7b475c2b5c485a42717529</value>
+      <value>0x5c5c205c5c3e7b475c2b5c485a42717529</value>
+     </values>
+    </property>
+    <property>
+     <name>Filters</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>FilterPipeline</name>
+      <values arity="Scalar" type="String">
+       <value>FlateDecode</value>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Fonts</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>TrueType</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F16</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>CenturySchoolbook,Italic</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>CenturySchoolbook,Italic</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-156</value>
+          <value>-307</value>
+          <value>1235</value>
+          <value>1113</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F10</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>CenturySchoolbook,Bold</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>CenturySchoolbook,Bold</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-177</value>
+          <value>-319</value>
+          <value>1388</value>
+          <value>1137</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F11</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Arial,Bold</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>Arial,Bold</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-628</value>
+          <value>-376</value>
+          <value>2000</value>
+          <value>1010</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F12</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>Arial</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>Arial</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-665</value>
+          <value>-325</value>
+          <value>2000</value>
+          <value>1006</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      <property>
+       <name>Font</name>
+       <values arity="List" type="Property">
+       <property>
+        <name>Name</name>
+        <values arity="Scalar" type="String">
+         <value>F9</value>
+        </values>
+       </property>
+       <property>
+        <name>BaseFont</name>
+        <values arity="Scalar" type="String">
+         <value>CenturySchoolbook</value>
+        </values>
+       </property>
+       <property>
+        <name>FirstChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>32</value>
+        </values>
+       </property>
+       <property>
+        <name>LastChar</name>
+        <values arity="Scalar" type="Integer">
+         <value>255</value>
+        </values>
+       </property>
+       <property>
+        <name>FontDescriptor</name>
+        <values arity="List" type="Property">
+        <property>
+         <name>FontName</name>
+         <values arity="Scalar" type="String">
+          <value>CenturySchoolbook</value>
+         </values>
+        </property>
+        <property>
+         <name>Flags</name>
+         <values arity="List" type="String">
+          <value>Nonsymbolic</value>
+         </values>
+        </property>
+        <property>
+         <name>FontBBox</name>
+         <values arity="Array" type="Integer">
+          <value>-165</value>
+          <value>-307</value>
+          <value>1246</value>
+          <value>1201</value>
+         </values>
+        </property>
+        </values>
+       </property>
+       <property>
+        <name>Encoding</name>
+        <values arity="Scalar" type="String">
+         <value>WinAnsiEncoding</value>
+        </values>
+       </property>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    <property>
+     <name>Pages</name>
+     <values arity="List" type="Property">
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>1</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     <property>
+      <name>Page</name>
+      <values arity="List" type="Property">
+      <property>
+       <name>Sequence</name>
+       <values arity="Scalar" type="Integer">
+        <value>2</value>
+       </values>
+      </property>
+      </values>
+     </property>
+     </values>
+    </property>
+    </values>
+   </property>
+  </properties>
+  <checksums>
+   <checksum type="CRC32">8300a3fb</checksum>
+   <checksum type="MD5">e4dbcdd85a4fef69af2431ae4e592b67</checksum>
+   <checksum type="SHA-1">39f267234459147e83c442ce122e4dc21bff335d</checksum>
+  </checksums>
+ </repInfo>
+</jhove>

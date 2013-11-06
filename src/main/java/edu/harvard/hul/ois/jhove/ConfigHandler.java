@@ -383,8 +383,7 @@ public class ConfigHandler
                     throws SAXException, IOException {
         if (systemId.endsWith (configSchemaName)) {
             try {
-                URL resURL = this.getClass().getResource("jhoveConfig.xsd");
-                InputStream strm = resURL.openStream ();
+            	InputStream strm = this.getClass().getResourceAsStream(configSchemaName); 
                 return new InputSource (strm);
             }
             catch (Exception e) {}
