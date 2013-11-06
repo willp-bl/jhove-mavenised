@@ -114,13 +114,14 @@ public class JhoveAPI {
 			while(bufReader.ready()) {
 				line = bufReader.readLine().trim();
 				//System.out.println(line);
-				//HACK: ignore the date the test was run
+				//MASSIVE HACK: ignore the date the test was run,
+				// the last modified time
 				// *and* where the file is stored
 				if(!(line.startsWith("<date>")&line.endsWith("</date>"))) {
 					if(!(line.startsWith("<repInfo")&line.endsWith(">"))) {
 						if(!(line.startsWith("<lastModified>")&line.endsWith("</lastModified>"))) {
-						//may also need to remove <lastModified> depending on git
-						charWriter.append(line);	
+							//may also need to remove <lastModified> depending on git
+							charWriter.append(line);	
 						}
 					}
 				} 
